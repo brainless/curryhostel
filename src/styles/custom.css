@@ -1,0 +1,5 @@
+.sl-markdown-content
+  :is(img, picture, video, canvas, svg, iframe):not(:where(.not-content *)) {
+  width: 100%;
+  border-radius: 0.5rem;
+}
